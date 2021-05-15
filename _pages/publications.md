@@ -14,3 +14,5 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+A lot of interesting papers and books around quadcopters and the Crazyflie are collected [in this BibTex file](https://bot-motion.github.io/files/crazyflie.bib).

@@ -1,0 +1,330 @@
+% Encoding: UTF-8
+
+@Article{Palossi2018,
+  author        = {Daniele Palossi and Antonio Loquercio and Francesco Conti and Eric Flamand and Davide Scaramuzza and Luca Benini},
+  title         = {A 64mW DNN-based Visual Navigation Engine for Autonomous Nano-Drones},
+  year          = {2018},
+  month         = may,
+  abstract      = {Fully-autonomous miniaturized robots (e.g., drones), with artificial intelligence (AI) based visual navigation capabilities are extremely challenging drivers of Internet-of-Things edge intelligence capabilities. Visual navigation based on AI approaches, such as deep neural networks (DNNs) are becoming pervasive for standard-size drones, but are considered out of reach for nanodrones with size of a few cm${}^\mathrm{2}$. In this work, we present the first (to the best of our knowledge) demonstration of a navigation engine for autonomous nano-drones capable of closed-loop end-to-end DNN-based visual navigation. To achieve this goal we developed a complete methodology for parallel execution of complex DNNs directly on-bard of resource-constrained milliwatt-scale nodes. Our system is based on GAP8, a novel parallel ultra-low-power computing platform, and a 27 g commercial, open-source CrazyFlie 2.0 nano-quadrotor. As part of our general methodology we discuss the software mapping techniques that enable the state-of-the-art deep convolutional neural network presented in [1] to be fully executed on-board within a strict 6 fps real-time constraint with no compromise in terms of flight results, while all processing is done with only 64 mW on average. Our navigation engine is flexible and can be used to span a wide performance range: at its peak performance corner it achieves 18 fps while still consuming on average just 3.5% of the power envelope of the deployed nano-aircraft.},
+  archiveprefix = {arXiv},
+  doi           = {10.1109/JIOT.2019.2917066},
+  eprint        = {1805.01831},
+  file          = {:http\://arxiv.org/pdf/1805.01831v4:PDF},
+  keywords      = {cs.RO, cs.AI, cs.NE, eess.SP},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Sakai2018,
+  author        = {Atsushi Sakai and Daniel Ingram and Joseph Dinius and Karan Chawla and Antonin Raffin and Alexis Paques},
+  title         = {PythonRobotics: a Python code collection of robotics algorithms},
+  year          = {2018},
+  month         = aug,
+  abstract      = {This paper describes an Open Source Software (OSS) project: PythonRobotics. This is a collection of robotics algorithms implemented in the Python programming language. The focus of the project is on autonomous navigation, and the goal is for beginners in robotics to understand the basic ideas behind each algorithm. In this project, the algorithms which are practical and widely used in both academia and industry are selected. Each sample code is written in Python3 and only depends on some standard modules for readability and ease of use. It includes intuitive animations to understand the behavior of the simulation.},
+  archiveprefix = {arXiv},
+  eprint        = {1808.10703},
+  file          = {:http\://arxiv.org/pdf/1808.10703v3:PDF},
+  keywords      = {cs.RO},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Duisterhof2019,
+  author        = {Bardienus P. Duisterhof and Srivatsan Krishnan and Jonathan J. Cruz and Colby R. Banbury and William Fu and Aleksandra Faust and Guido C. H. E. de Croon and Vijay Janapa Reddi},
+  title         = {Learning to Seek: Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller},
+  year          = {2019},
+  month         = sep,
+  abstract      = {We present fully autonomous source seeking onboard a highly constrained nano quadcopter, by contributing application-specific system and observation feature design to enable inference of a deep-RL policy onboard a nano quadcopter. Our deep-RL algorithm finds a high-performance solution to a challenging problem, even in presence of high noise levels and generalizes across real and simulation environments with different obstacle configurations. We verify our approach with simulation and in-field testing on a Bitcraze CrazyFlie using only the cheap and ubiquitous Cortex-M4 microcontroller unit. The results show that by end-to-end application-specific system design, our contribution consumes almost three times less additional power, as compared to competing learning-based navigation approach onboard a nano quadcopter. Thanks to our observation space, which we carefully design within the resource constraints, our solution achieves a 94% success rate in cluttered and randomized test environments, as compared to the previously achieved 80%. We also compare our strategy to a simple finite state machine (FSM), geared towards efficient exploration, and demonstrate that our policy is more robust and resilient at obstacle avoidance as well as up to 70% more efficient in source seeking. To this end, we contribute a cheap and lightweight end-to-end tiny robot learning (tinyRL) solution, running onboard a nano quadcopter, that proves to be robust and efficient in a challenging task using limited sensory input.},
+  archiveprefix = {arXiv},
+  eprint        = {1909.11236},
+  file          = {:Duisterhof2019 - Learning to Seek_ Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller.pdf:PDF},
+  keywords      = {cs.RO, cs.AI, cs.LG, cs.SY, eess.SY},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Shang2019,
+  author        = {Zhexiong Shang and Zhigang Shen},
+  title         = {Indoor Testing and Simulation Platform for Close-distance Visual Inspection of Complex Structures using Micro Quadrotor UAV},
+  year          = {2019},
+  month         = apr,
+  abstract      = {In recent years, using drone, also known as unmanned aerial vehicle (UAV), in close-distance visual inspection has became an active area in many disciplines. However, many challenges still remain before we can achieve autonomous inspection, especially when inspecting complex structures. The complex civil structures, such as bridges, dams and wind turbines, are large-scale and geometrical complicated. It requires sophisticated path planning algorithms to achieve close-distance inspection and, at the same time, avoid collisions. In practice, directly deploying the path planning result on such structures is error prone, costly, and full of hazards. In this paper, rely on micro quadrotor UAV, the authors present an affordable experimental platform for testing drone-based path planning result. The platform allows the users to conduct many path planning experiments at any time without worrying expensive and time consuming outdoor test flying. This platform is developed based on the bundle of Crazyflie, which includes Crazyflie 2.0 quadrotor, Crazyradio and loco positioning system (LPS). Equipped with an onboard micro FPV camera, the visual data can be lively streamed to the host computer during flight. The functions of manual configuration and waypoints control are explicitly designed in this platform to increase its flexibility and performance on path following and debugging. To evaluate the practicability of the proposed test platform, two existing drone-based path planning algorithms are tested. The results show that even though certain level of error existed, the quality of visual data and accuracy of path following are high enough for simulating most practical inspection applications.},
+  archiveprefix = {arXiv},
+  eprint        = {1904.05271},
+  file          = {:Shang2019 - Indoor Testing and Simulation Platform for Close Distance Visual Inspection of Complex Structures Using Micro Quadrotor UAV.pdf:PDF},
+  keywords      = {cs.RO, cs.SY},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Lambert2019,
+  author        = {Nathan O. Lambert and Daniel S. Drew and Joseph Yaconelli and Roberto Calandra and Sergey Levine and Kristofer S. J. Pister},
+  title         = {Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning},
+  year          = {2019},
+  month         = jan,
+  abstract      = {Designing effective low-level robot controllers often entail platform-specific implementations that require manual heuristic parameter tuning, significant system knowledge, or long design times. With the rising number of robotic and mechatronic systems deployed across areas ranging from industrial automation to intelligent toys, the need for a general approach to generating low-level controllers is increasing. To address the challenge of rapidly generating low-level controllers, we argue for using model-based reinforcement learning (MBRL) trained on relatively small amounts of automatically generated (i.e., without system simulation) data. In this paper, we explore the capabilities of MBRL on a Crazyflie centimeter-scale quadrotor with rapid dynamics to predict and control at <50Hz. To our knowledge, this is the first use of MBRL for controlled hover of a quadrotor using only on-board sensors, direct motor input signals, and no initial dynamics knowledge. Our controller leverages rapid simulation of a neural network forward dynamics model on a GPU-enabled base station, which then transmits the best current action to the quadrotor firmware via radio. In our experiments, the quadrotor achieved hovering capability of up to 6 seconds with 3 minutes of experimental training data.},
+  archiveprefix = {arXiv},
+  eprint        = {1901.03737},
+  file          = {:Lambert2019 - Low Level Control of a Quadrotor with Deep Model Based Reinforcement Learning.pdf:PDF},
+  keywords      = {cs.RO, cs.LG},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Palossi2019a,
+  author        = {Daniele Palossi and Francesco Conti and Luca Benini},
+  title         = {An Open Source and Open Hardware Deep Learning-powered Visual Navigation Engine for Autonomous Nano-UAVs},
+  year          = {2019},
+  month         = may,
+  abstract      = {Nano-size unmanned aerial vehicles (UAVs), with few centimeters of diameter and sub-10 Watts of total power budget, have so far been considered incapable of running sophisticated visual-based autonomous navigation software without external aid from base-stations, ad-hoc local positioning infrastructure, and powerful external computation servers. In this work, we present what is, to the best of our knowledge, the first 27g nano-UAV system able to run aboard an end-to-end, closed-loop visual pipeline for autonomous navigation based on a state-of-the-art deep-learning algorithm, built upon the open-source CrazyFlie 2.0 nano-quadrotor. Our visual navigation engine is enabled by the combination of an ultra-low power computing device (the GAP8 system-on-chip) with a novel methodology for the deployment of deep convolutional neural networks (CNNs). We enable onboard real-time execution of a state-of-the-art deep CNN at up to 18Hz. Field experiments demonstrate that the system's high responsiveness prevents collisions with unexpected dynamic obstacles up to a flight speed of 1.5m/s. In addition, we also demonstrate the capability of our visual navigation engine of fully autonomous indoor navigation on a 113m previously unseen path. To share our key findings with the embedded and robotics communities and foster further developments in autonomous nano-UAVs, we publicly release all our code, datasets, and trained networks.},
+  archiveprefix = {arXiv},
+  eprint        = {1905.04166},
+  file          = {:Palossi2019a - An Open Source and Open Hardware Deep Learning Powered Visual Navigation Engine for Autonomous Nano UAVs.pdf:PDF},
+  keywords      = {cs.RO, cs.LG, eess.SP},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Bashiri2018,
+  author    = {Fereshteh S. Bashiri and Eric LaRose and Peggy Peissig and Ahmad P. Tafti},
+  journal   = {Data in Brief},
+  title     = {{MCIndoor}20000: A fully-labeled image dataset to advance indoor objects detection},
+  year      = {2018},
+  month     = {apr},
+  pages     = {71--75},
+  volume    = {17},
+  doi       = {10.1016/j.dib.2017.12.047},
+  publisher = {Elsevier {BV}},
+}
+
+@InProceedings{crazyswarm,
+  author    = {James A. Preiss* and Wolfgang H\"onig* and Gaurav S. Sukhatme and Nora Ayanian},
+  booktitle = {{IEEE} International Conference on Robotics and Automation ({ICRA})},
+  title     = {Crazyswarm: {A} large nano-quadcopter swarm},
+  year      = {2017},
+  note      = {Software available at \url{https://github.com/USC-ACTLab/crazyswarm}},
+  pages     = {3299--3304},
+  publisher = {{IEEE}},
+  doi       = {10.1109/ICRA.2017.7989376},
+  file      = {:Preiss_ICRA2017.pdf:PDF},
+  url       = {https://doi.org/10.1109/ICRA.2017.7989376},
+}
+
+@Book{lavalle2006planning,
+  author    = {LaValle, Steven M},
+  publisher = {Cambridge University Press},
+  title     = {Planning algorithms},
+  year      = {2006},
+  file      = {:lavalle2006planning - Planning Algorithms.pdf:PDF},
+}
+
+@Article{Taketomi2017,
+  author    = {Takafumi Taketomi and Hideaki Uchiyama and Sei Ikeda},
+  journal   = {{IPSJ} Transactions on Computer Vision and Applications},
+  title     = {Visual {SLAM} algorithms: a survey from 2010 to 2016},
+  year      = {2017},
+  month     = {jun},
+  number    = {1},
+  volume    = {9},
+  doi       = {10.1186/s41074-017-0027-2},
+  file      = {:Taketomi2017 - Visual SLAM Algorithms_ a Survey from 2010 to 2016.pdf:PDF},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@InProceedings{hashemifar2020practical,
+  author       = {Hashemifar, Zakieh and Dantu, Karthik},
+  booktitle    = {2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  title        = {Practical Persistence Reasoning in Visual SLAM},
+  year         = {2020},
+  organization = {IEEE},
+  pages        = {7307--7313},
+  file         = {:hashemifar2020practical - Practical Persistence Reasoning in Visual SLAM.pdf:PDF},
+}
+
+@Article{li2020visual,
+  author    = {Li, Shuo and van der Horst, Erik and Duernay, Philipp and De Wagter, Christophe and de Croon, Guido CHE},
+  journal   = {Journal of Field Robotics},
+  title     = {Visual model-predictive localization for computationally efficient autonomous racing of a 72-g drone},
+  year      = {2020},
+  number    = {4},
+  pages     = {667--692},
+  volume    = {37},
+  file      = {:li2020visual - Visual Model Predictive Localization for Computationally Efficient Autonomous Racing of a 72 G Drone.pdf:PDF},
+  publisher = {Wiley Online Library},
+}
+
+@Article{trujillo2020monocular,
+  author    = {Trujillo, Juan-Carlos and Munguia, Rodrigo and Urzua, Sarquis and Guerra, Edmundo and Grau, Antoni},
+  journal   = {Sensors},
+  title     = {Monocular Visual SLAM Based on a Cooperative UAV--Target System},
+  year      = {2020},
+  number    = {12},
+  pages     = {3531},
+  volume    = {20},
+  file      = {:trujillo2020monocular - Monocular Visual SLAM Based on a Cooperative UAV Target System.pdf:PDF},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Article{quan2020survey,
+  author    = {Quan, Lun and Han, Luxin and Zhou, Boyu and Shen, Shaojie and Gao, Fei},
+  journal   = {IET Cyber-systems and Robotics},
+  title     = {Survey of UAV motion planning},
+  year      = {2020},
+  number    = {1},
+  pages     = {14--21},
+  volume    = {2},
+  file      = {:quan2020survey - Survey of UAV Motion Planning.pdf:PDF;:quan2020survey - Survey of UAV Motion Planning.pdf:PDF},
+  publisher = {IET},
+}
+
+@Article{Conti2020,
+  author        = {Francesco Conti},
+  title         = {Technical Report: NEMO DNN Quantization for Deployment Model},
+  year          = {2020},
+  month         = apr,
+  abstract      = {This technical report aims at defining a formal framework for Deep Neural Network (DNN) layer-wise quantization, focusing in particular on the problems related to the final deployment. It also acts as a documentation for the NEMO (NEural Minimization for pytOrch) framework. It describes the four DNN representations used in NEMO (FullPrecision, FakeQuantized, QuantizedDeployable and IntegerDeployable), focusing in particular on a formal definition of the latter two. An important feature of this model, and in particular the IntegerDeployable representation, is that it enables DNN inference using purely integers - without resorting to real-valued numbers in any part of the computation and without relying on an explicit fixed-point numerical representation.},
+  archiveprefix = {arXiv},
+  eprint        = {2004.05930},
+  file          = {:http\://arxiv.org/pdf/2004.05930v1:PDF;:Conti2020 - Technical Report_ NEMO DNN Quantization for Deployment Model.pdf:PDF},
+  keywords      = {cs.LG, cs.AI, cs.NE, stat.ML},
+  primaryclass  = {cs.LG},
+}
+
+@Article{Foehn2020,
+  author        = {Philipp Foehn and Dario Brescianini and Elia Kaufmann and Titus Cieslewski and Mathias Gehrig and Manasi Muglikar and Davide Scaramuzza},
+  title         = {AlphaPilot: Autonomous Drone Racing},
+  year          = {2020},
+  month         = may,
+  abstract      = {This paper presents a novel system for autonomous, vision-based drone racing combining learned data abstraction, nonlinear filtering, and time-optimal trajectory planning. The system has successfully been deployed at the first autonomous drone racing world championship: the 2019 AlphaPilot Challenge. Contrary to traditional drone racing systems, which only detect the next gate, our approach makes use of any visible gate and takes advantage of multiple, simultaneous gate detections to compensate for drift in the state estimate and build a global map of the gates. The global map and drift-compensated state estimate allow the drone to navigate through the race course even when the gates are not immediately visible and further enable to plan a near time-optimal path through the race course in real time based on approximate drone dynamics. The proposed system has been demonstrated to successfully guide the drone through tight race courses reaching speeds up to 8m/s and ranked second at the 2019 AlphaPilot Challenge.},
+  archiveprefix = {arXiv},
+  eprint        = {2005.12813},
+  file          = {:http\://arxiv.org/pdf/2005.12813v1:PDF;:Foehn2020 - AlphaPilot_ Autonomous Drone Racing.pdf:PDF},
+  keywords      = {cs.RO, cs.CV, cs.SY, eess.SY},
+  primaryclass  = {cs.RO},
+}
+
+@Article{Burrello2020,
+  author        = {Alessio Burrello and Angelo Garofalo and Nazareno Bruschi and Giuseppe Tagliavini and Davide Rossi and Francesco Conti},
+  title         = {DORY: Automatic End-to-End Deployment of Real-World DNNs on Low-Cost IoT MCUs},
+  year          = {2020},
+  month         = aug,
+  abstract      = {The deployment of Deep Neural Networks (DNNs) on end-nodes at the extreme edge of the Internet-of-Things is a critical enabler to support pervasive Deep Learning-enhanced applications. Low-Cost MCU-based end-nodes have limited on-chip memory and often replace caches with scratchpads, to reduce area overheads and increase energy efficiency -- requiring explicit DMA-based memory transfers between different levels of the memory hierarchy. Mapping modern DNNs on these systems requires aggressive topology-dependent tiling and double-buffering. In this work, we propose DORY (Deployment Oriented to memoRY) - an automatic tool to deploy DNNs on low cost MCUs with typically less than 1MB of on-chip SRAM memory. DORY abstracts tiling as a Constraint Programming (CP) problem: it maximizes L1 memory utilization under the topological constraints imposed by each DNN layer. Then, it generates ANSI C code to orchestrate off- and on-chip transfers and computation phases. Furthermore, to maximize speed, DORY augments the CP formulation with heuristics promoting performance-effective tile sizes. As a case study for DORY, we target GreenWaves Technologies GAP8, one of the most advanced parallel ultra-low power MCU-class devices on the market. On this device, DORY achieves up to 2.5x better MAC/cycle than the GreenWaves proprietary software solution and 18.1x better than the state-of-the-art result on an STM32-F746 MCU on single layers. Using our tool, GAP-8 can perform end-to-end inference of a 1.0-MobileNet-128 network consuming just 63 pJ/MAC on average @ 4.3 fps - 15.4x better than an STM32-F746. We release all our developments - the DORY framework, the optimized backend kernels, and the related heuristics - as open-source software.},
+  archiveprefix = {arXiv},
+  doi           = {10.1109/TC.2021.3066883},
+  eprint        = {2008.07127},
+  file          = {:http\://arxiv.org/pdf/2008.07127v3:PDF;:Burrello2020 - DORY_ Automatic End to End Deployment of Real World DNNs on Low Cost IoT MCUs.pdf:PDF},
+  keywords      = {cs.DC, cs.AR, cs.NE},
+  primaryclass  = {cs.DC},
+}
+
+@Article{Palossi2021,
+  author        = {Daniele Palossi and Nicky Zimmerman and Alessio Burrello and Francesco Conti and Hanna Müller and Luca Maria Gambardella and Luca Benini and Alessandro Giusti and Jérôme Guzzi},
+  title         = {Fully Onboard AI-powered Human-Drone Pose Estimation on Ultra-low Power Autonomous Flying Nano-UAVs},
+  year          = {2021},
+  month         = mar,
+  abstract      = {Artificial intelligence-powered pocket-sized air robots have the potential to revolutionize the Internet-of-Things ecosystem, acting as autonomous, unobtrusive, and ubiquitous smart sensors. With a few cm$^{2}$ form-factor, nano-sized unmanned aerial vehicles (UAVs) are the natural befit for indoor human-drone interaction missions, as the pose estimation task we address in this work. However, this scenario is challenged by the nano-UAVs' limited payload and computational power that severely relegates the onboard brain to the sub-100 mW microcontroller unit-class. Our work stands at the intersection of the novel parallel ultra-low-power (PULP) architectural paradigm and our general development methodology for deep neural network (DNN) visual pipelines, i.e., covering from perception to control. Addressing the DNN model design, from training and dataset augmentation to 8-bit quantization and deployment, we demonstrate how a PULP-based processor, aboard a nano-UAV, is sufficient for the real-time execution (up to 135 frame/s) of our novel DNN, called PULP-Frontnet. We showcase how, scaling our model's memory and computational requirement, we can significantly improve the onboard inference (top energy efficiency of 0.43 mJ/frame) with no compromise in the quality-of-result vs. a resource-unconstrained baseline (i.e., full-precision DNN). Field experiments demonstrate a closed-loop top-notch autonomous navigation capability, with a heavily resource-constrained 27-gram Crazyflie 2.1 nano-quadrotor. Compared against the control performance achieved using an ideal sensing setup, onboard relative pose inference yields excellent drone behavior in terms of median absolute errors, such as positional (onboard: 41 cm, ideal: 26 cm) and angular (onboard: 3.7$^{\circ}$, ideal: 4.1$^{\circ}$).},
+  archiveprefix = {arXiv},
+  eprint        = {2103.10873},
+  file          = {:http\://arxiv.org/pdf/2103.10873v1:PDF;:Palossi2021 - Fully Onboard AI Powered Human Drone Pose Estimation on Ultra Low Power Autonomous Flying Nano UAVs.pdf:PDF},
+  keywords      = {cs.RO, cs.SY, eess.SY},
+  primaryclass  = {cs.RO},
+}
+
+@Book{quan2017introduction,
+  author    = {Quan, Quan},
+  publisher = {Springer},
+  title     = {Introduction to multicopter design and control},
+  year      = {2017},
+  file      = {:quan2017introduction - Introduction to Multicopter Design and Control.pdf:PDF},
+}
+
+@Book{lynch2017modern,
+  author    = {Lynch, Kevin M and Park, Frank C},
+  publisher = {Cambridge University Press},
+  title     = {Modern Robotics},
+  year      = {2017},
+  file      = {:lynch2017modern - Modern Robotics.pdf:PDF},
+}
+
+@InProceedings{macallister2013path,
+  author       = {MacAllister, Brian and Butzke, Jonathan and Kushleyev, Alex and Pandey, Harsh and Likhachev, Maxim},
+  booktitle    = {2013 IEEE International Conference on Robotics and Automation},
+  title        = {Path planning for non-circular micro aerial vehicles in constrained environments},
+  year         = {2013},
+  organization = {IEEE},
+  pages        = {3933--3940},
+  file         = {:macallister2013path - Path Planning for Non Circular Micro Aerial Vehicles in Constrained Environments.pdf:PDF},
+}
+
+@Book{sutton2018reinforcement,
+  author    = {Sutton, Richard S and Barto, Andrew G},
+  publisher = {MIT Press},
+  title     = {Reinforcement learning: An introduction},
+  year      = {2018},
+  file      = {:sutton2018reinforcement - Reinforcement Learning_ an Introduction.pdf:PDF},
+}
+
+@Article{nguyen2020tightly,
+  author    = {Nguyen, Thien Hoang and Nguyen, Thien-Minh and Xie, Lihua},
+  journal   = {Autonomous Robots},
+  title     = {Tightly-coupled ultra-wideband-aided monocular visual SLAM with degenerate anchor configurations},
+  year      = {2020},
+  number    = {8},
+  pages     = {1519--1534},
+  volume    = {44},
+  file      = {:nguyen2020tightly - Tightly Coupled Ultra Wideband Aided Monocular Visual SLAM with Degenerate Anchor Configurations.pdf:PDF},
+  publisher = {Springer},
+}
+
+@InProceedings{preiss2017crazyswarm,
+  author       = {Preiss, James A and Honig, Wolfgang and Sukhatme, Gaurav S and Ayanian, Nora},
+  booktitle    = {2017 IEEE International Conference on Robotics and Automation (ICRA)},
+  title        = {Crazyswarm: A large nano-quadcopter swarm},
+  year         = {2017},
+  organization = {IEEE},
+  pages        = {3299--3304},
+  file         = {:preiss2017crazyswarm - Crazyswarm_ a Large Nano Quadcopter Swarm.pdf:PDF},
+}
+
+@MastersThesis{Timurovich2019,
+  author   = {Agishev Ruslan Timurovich},
+  school   = {Skolkovo Institute of Science and Technology},
+  title    = {Adaptive Control of Swarm of Drones for Obstacle Avoidance},
+  year     = {2019},
+  address  = {Moscow},
+  type     = {mathesis},
+  abstract = {This paper presents a layered path planner algorithm to solve multiple agents navigation
+problem in a cluttered environment. The general path planning problem is divided into
+approximate global trajectory construction, which is further smoothed by a local path
+planning method.
+The proposed approach provides a solution based on a leader-followers architecture with a
+prescribed formation geometry that adapts dynamically to the environment and avoids
+collisions. The path generated by the global planner based on rapidly-exploring random
+tree algorithm is corrected with the artificial potential fields method that ensures robots
+trajectories to be collision-free, reshaping the geometry of the formation when required by
+environmental conditions.
+The implemented algorithm has been tested on nano-quadrotors. Flight experiments
+demonstrated the possibility to accurately navigate the formation of drones in a cluttered
+environment with static and moving obstacles. This navigation strategy for multiple
+autonomous robots could potentially have an impact on vision inspection and payload
+transportation tasks.
+Due to its mobility and spatial distribution, the swarm of quadrotors could be the first
+responder for the different kind of emergencies, such as fire, earthquake or flood. To
+gather the initial information about a suffering area is the crucial point for any rescue
+team. Monitoring of the progress of disaster recovery is also an important point as far
+as an emergency is a dynamically changing environment. Navigation of swarm in the
+city environment, for example with multi-story buildings or even with skyscrapers, could
+be a challenging task. Maintaining the default geometry of the formation is reasonable
+in terms of real-life applications when it is important to gather special data evenly or
+provide communication through the formation.},
+  file     = {:- Adaptive Control of Swarm of Drones for Obstacle Avoidance.pdf:PDF},
+}
+
+@Article{bender2002power,
+  author    = {Bender, Michael A and Fern{\'a}ndez, Antonio and Ron, Dana and Sahai, Amit and Vadhan, Salil},
+  journal   = {Information and computation},
+  title     = {The power of a pebble: Exploring and mapping directed graphs},
+  year      = {2002},
+  number    = {1},
+  pages     = {1--21},
+  volume    = {176},
+  doi       = {https://doi.org/10.1145/276698.276759},
+  file      = {:bender2002power - The Power of a Pebble_ Exploring and Mapping Directed Graphs.pdf:PDF},
+  publisher = {Elsevier},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
