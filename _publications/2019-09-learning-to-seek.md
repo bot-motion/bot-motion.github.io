@@ -8,13 +8,13 @@ venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/1909.11236v5'
 ---
 This is an amazing paper showing the power of simple solutions. I'm a fan of [bio-inspired stuff](https://www.epfl.ch/labs/lis/); and while this is not 'officially' inspired 
-by insect life, the Crazyflie here shows a 'seeking' behavior for something that could be food (a landing pad, the [Qi charging deck](https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck)) or, as in the paper, a light source. 
+by insect life, the Crazyflie here shows a 'seeking' behavior for something that could be food (a landing pad with a charger for the [Qi charging deck](https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck)) or, as in the paper, a light source. 
 
 I had already aquired a chemical sensor to play around with, and implement a seeking behavior. This paper really drives home that it should be possible to build a system that a) takes off
 with a full battery, b) seeks a light or odour source, exploring as long as possible, and then c) returning 'home' driven by the need to re-charge. 
 Reminds me of a bee! I read a paper recently that [described the difficulties of landing on a pad guided by camera only](https://www.mdpi.com/1424-8220/19/21/4703/htm) 
--- but perhaps this could be made simpler by putting a long stick with (passive) height markers up next to the Qi deck, allowing the flie to 'watch' the stick while kind of 
-going down like in an elevator.
+-- but perhaps this could be made simpler by putting a long stick with (passive) height markers up next to the landing pad, allowing the flie to 'watch' the stick while kind of 
+going down like in an elevator, setting down with the Qi deck aligned with a charger.
 
 While it's impressive and a strong message that they used a simple system instead of a 'complicated' vision based system, I still think that it would
 be interesting and possible to use the AI deck to recognize 'the source' that the flie is supposed to seek, substituting the role of the light sensor for the camera.
