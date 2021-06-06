@@ -1,6 +1,6 @@
 ---
 title: 'Learning about visual odometry and sensor fusion'
-date: 2021-05-31
+date: 2021-06-06
 permalink: /posts/2021/06/learning-visual-odometry/
 tags:
   - state-estimation
