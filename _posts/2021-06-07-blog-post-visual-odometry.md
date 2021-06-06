@@ -24,7 +24,7 @@ Although slightly dated it's still a very good summary of the state of the art o
 
 * F. Fraundorfer and D. Scaramuzza, "Visual Odometry : Part II: Matching, Robustness, Optimization, and Applications," in IEEE Robotics & Automation Magazine, vol. 19, no. 2, pp. 78-90, June 2012, doi: [10.1109/MRA.2012.2182810](http://doi.org/10.1109/MRA.2012.2182810).
 
-As it turns out, it's also a great companion to the Nanodegree! All the algorithms explained in the course are revisited, especially in part II of the tutorial.
+You can find free copies of it on Google Scholar. As it turns out, it's also a great companion to the Nanodegree! All the algorithms explained in the course are revisited, especially in part II of the tutorial.
 
 ## Videos
 Last but not least, there is a great tutorial talk by Yafei Hu on Youtube: [Feature-based, Direct, and Deep Learning Methods of Visual Odometry](https://www.youtube.com/watch?v=VOlYuK6AtAE). It was part of the [Air Lab Summer School 2020 at CMU](https://theairlab.org/summer2020/). For practicalities there are at least a dozen videos on Youtube that show how to use ArduPilot with OpenCV and ROS -- the kind of ressources that the Crazyflie cannot muster.
